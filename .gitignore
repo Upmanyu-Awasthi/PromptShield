@@ -1,0 +1,36 @@
+# --- Virtual Environments & Python Packages ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- PyCharm / JetBrains IDE Configs (Crucial to ignore the .xml files) ---
+.idea/
+*.iml
+.modules.xml
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# --- Local ML Data Science Artifacts ---
+data/
+*.csv
+*.jsonl
+*.parquet
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# --- Jupyter Notebook Artifacts ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Cloud Deployment & Environment Secrets ---
+.env
+*.json
+.gcloud/
+secrets.yaml
